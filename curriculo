@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Jeronimo Lopes Ferreira</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+        }
+        .section-title {
+            border-bottom: 2px solid #3b82f6; /* Blue accent */
+        }
+        .job-entry:not(:last-child) {
+            border-bottom: 1px solid #e5e7eb; /* Light separator line */
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+
+    <div class="container mx-auto max-w-5xl my-8 p-4 md:p-8 bg-white rounded-xl shadow-2xl">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <!-- Coluna Esquerda (Sidebar) -->
+            <aside class="md:col-span-1 md:border-r md:pr-8 border-gray-200">
+                <div class="p-6 bg-gray-50 rounded-lg">
+                    <h2 class="text-xl font-bold text-gray-900 mb-4">Contato</h2>
+                    <div class="space-y-3 text-sm">
+                        <a href="tel:+5592994610904" class="flex items-center text-gray-600 hover:text-blue-600 transition-colors">
+                            <i data-feather="smartphone" class="w-4 h-4 mr-3"></i>
+                            (92) 99461-0904
+                        </a>
+                         <a href="https://www.behance.net/jeronimolopes" target="_blank" class="flex items-center text-gray-600 hover:text-blue-600 transition-colors">
+                            <i data-feather="pen-tool" class="w-4 h-4 mr-3"></i>
+                            Behance Portfolio
+                        </a>
+                        <a href="mailto:jeronimolopess@gmail.com" class="flex items-center text-gray-600 hover:text-blue-600 transition-colors">
+                            <i data-feather="mail" class="w-4 h-4 mr-3"></i>
+                            jeronimolopess@gmail.com
+                        </a>
+                        <a href="https://www.linkedin.com/in/jeronimo-lopes-52157036/" target="_blank" class="flex items-center text-gray-600 hover:text-blue-600 transition-colors">
+                            <i data-feather="linkedin" class="w-4 h-4 mr-3"></i>
+                            Perfil no LinkedIn
+                        </a>
+                        <p class="flex items-center text-gray-600">
+                            <i data-feather="map-pin" class="w-4 h-4 mr-3"></i>
+                            Manaus, AM, Brasil
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mt-8">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 section-title pb-2">Habilidades Técnicas</h3>
+                    <div class="space-y-3 text-sm">
+                        <p><strong>Photoshop:</strong> Alta proficiência (10 anos)</p>
+                        <p><strong>Produtos:</strong> Intelbras & Similares</p>
+                        <p><strong>Especialidades:</strong> CFTV, Controle de Acesso</p>
+                        <p><strong>Telecomunicações:</strong> Conhecimento Geral</p>
+                        <p><strong>Fibra Óptica:</strong> Conhecimento Sólido</p>
+                    </div>
+                </div>
+
+                <div class="mt-8">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 section-title pb-2">Habilidades Profissionais</h3>
+                    <div class="space-y-3 text-sm">
+                        <p>Vendas Consultivas (B2B & B2C)</p>
+                        <p>Atendimento ao Cliente</p>
+                        <p>Relacionamento com Varejistas</p>
+                        <p>Criação de Catálogo Virtual</p>
+                        <p>Suporte Técnico de Vendas</p>
+                    </div>
+                </div>
+
+                <div class="mt-8">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 section-title pb-2">Idiomas</h3>
+                    <div class="space-y-3 text-sm">
+                        <p><strong>Português:</strong> Nativo</p>
+                        <p><strong>Inglês:</strong> Avançado (B2-C1)</p>
+                    </div>
+                </div>
+
+                <div class="mt-8">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 section-title pb-2">Cursos e Certificações</h3>
+                    <div class="space-y-3 text-sm">
+                        <p><strong>Certificação em Vendas Intelbras</strong> - ITEC (2024)</p>
+                        <p><strong>Photoshop Avançado</strong> - Udemy (2023)</p>
+                    </div>
+                </div>
+
+                <div class="mt-8">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 section-title pb-2">Formação Acadêmica</h3>
+                    <div class="space-y-2 text-sm">
+                        <p class="font-semibold">Ciência da Computação</p>
+                        <p class="text-gray-600">CIESA</p>
+                        <p class="text-xs text-gray-500">Iniciando</p>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Coluna Direita (Conteúdo Principal) -->
+            <main class="md:col-span-2">
+                <header class="mb-8">
+                    <h1 class="text-5xl font-bold text-blue-600">JERONIMO LOPES FERREIRA</h1>
+                    <p class="text-xl text-gray-500 mt-2">Especialista em Vendas Técnicas</p>
+                </header>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4 section-title pb-2">Resumo Profissional</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        Profissional de vendas com mais de 10 anos de experiência no setor de comércio atacadista, com profundo conhecimento técnico em produtos de segurança eletrônica (CFTV), controle de acesso e telecomunicações. Especialista em produtos Intelbras e marcas similares, com sólida vivência no atendimento a consumidores finais, pequenos varejistas e no suporte a parceiros comerciais. Habilidade em traduzir especificações técnicas para clientes, afunilando o processo de venda e garantindo a satisfação. Proativo na criação de materiais de apoio, como catálogos virtuais, utilizando Photoshop com alto nível de proficiência.
+                    </p>
+                </section>
+                
+                <section class="mt-8">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4 section-title pb-2">Experiência Profissional</h2>
+                    <div class="space-y-6">
+                        
+                        <div class="job-entry pb-6">
+                            <h3 class="text-lg font-semibold text-gray-800">Vendedor Técnico</h3>
+                            <p class="text-md text-gray-600">Melo e Castro Representação de Equipamentos Arquitetura e Construção LTDA</p>
+                            <p class="text-sm text-blue-600 font-medium">Fevereiro de 2025 – Presente</p>
+                            <ul class="list-disc list-inside mt-3 text-gray-600 space-y-2 text-sm">
+                                <li>Responsável pelo atendimento especializado e venda consultiva de produtos de segurança eletrônica.</li>
+                                <li>Atendimento consultivo a consumidores finais, direcionando para as melhores soluções técnicas.</li>
+                                <li>Elaboração e manutenção de catálogo virtual com Photoshop.</li>
+                                <li>Gestão de relacionamento e vendas para clientes varejistas do interior do estado.</li>
+                                <li>Realização de visitas a pequenos varejistas para fortalecimento de parcerias.</li>
+                            </ul>
+                        </div>
+
+                        <div class="job-entry pb-6">
+                            <h3 class="text-lg font-semibold text-gray-800">Vendedor de Comércio Atacadista</h3>
+                            <p class="text-md text-gray-600">VENTTOS INDUSTRIA E COMERCIO DE COMPONENTES ELETRONICOS LTDA</p>
+                            <p class="text-sm text-gray-500">Fevereiro de 2016 – Setembro de 2016</p>
+                        </div>
+                        
+                        <div class="job-entry pb-6">
+                            <h3 class="text-lg font-semibold text-gray-800">Vendedor de Comércio Atacadista</h3>
+                            <p class="text-md text-gray-600">TELECOMUNICACOES E ELETRONICA MELO LTDA</p>
+                            <p class="text-sm text-gray-500">Dezembro de 2014 – Novembro de 2015</p>
+                        </div>
+
+                        <div class="job-entry pb-6">
+                            <h3 class="text-lg font-semibold text-gray-800">Vendedor de Comércio Atacadista</h3>
+                            <p class="text-md text-gray-600">BR ELETRON AMAZONIA COMERCIO DE ELETROELETRONICOS LTDA</p>
+                            <p class="text-sm text-gray-500">Julho de 2014 – Outubro de 2014</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
+
